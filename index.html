@@ -9,228 +9,281 @@
     </head>
 
     <body>
-        <h1>Learning HTML</h1>
-        <ul>
-            <li><a href="#paragraph">Paragraph</a></li>
-            <li><a href="#image">Image</a></li>
-            <li><a href="#audio">Audio</a></li>
-            <li><a href="#video">Video</a></li>
-            <li><a href="#anchor">Anchor</a></li>
-            <li><a href="#list">List</a></li>
-            <li><a href="#table">Table</a></li>
-            <li><a href="#input">Input</a></li>
-            <li><a href="#form">Form</a></li>
-            <li><a href="#iframe">Iframes</a></li>
-            <li><a href="#entities">Entities</a></li>
-            <li><a href="more.html">More</a></li>
-        </ul>
-        <hr />
-        <h2 id="paragraph">Paragraph</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique repellat totam error inventore molestiae
-            autem. Accusamus facilis eius ducimus? Qui totam necessitatibus non expedita harum earum explicabo
-            laboriosam praesentium itaque.</p>
-        <p>The last word has <em>emphasis</em></p>
-        <p><strong>The</strong> first word has bold</p>
-        <p>The middle <i>word</i> has italic</p>
-        <p><big>T</big>he first letter is bigger</p>
-        <p>The last letter is smalle<small>r</small></p>
-        <p><u>This paragraph has underline</u></p>
-        <p>H<sub>2</sub>O</p>
-        <p>10<sup>2</sup></p>
-        <p style="color: red;">Paragraph with style</p>
-        <hr />
-        <h2 id="image">Image</h2>
-        <img src="https://images2.minutemediacdn.com/image/upload/c_fill,w_720,ar_16:9,f_auto,q_auto,g_auto/shape/cover/sport/87226-gettyimages-1247734973-fb624124040b7676d4da16f7b3666048.jpg"
-            alt="A black Cat">
-        <hr />
-        <h2 id="list">List</h2>
-        <p style="color: orange;">This is an unordered list</p>
-        <ul>
-            <li>Cat</li>
-            <li>Birds</li>
-            <li>Dogs</li>
-        </ul>
-        <p style="color: orange;">This is a sorted list</p>
-        <ol>
-            <li>Orange</li>
-            <li>Strawberry</li>
-            <li>Lemon</li>
-        </ol>
-        <p style="color: orange;">This is a description list</p>
-        <dl>
-            <dt>Apples</dt>
-            <dd>They are red</dd>
-            <dt>Bananas</dt>
-            <dd>They are yellow</dd>
-            <dt>Grapes</dt>
-            <dd>They are green</dd>
-        </dl>
-        <hr />
-        <h2 id="table">Table</h2>
-        <p style="color: orange;">Simple Table</p>
-        <table>
-            <tr>
-                <td>One</td>
-                <td>Two</td>
-                <td>Three</td>
-            </tr>
-            <tr>
-                <td>Four</td>
-                <td>Five</td>
-                <td>Six</td>
-            </tr>
-        </table>
-        <p style="color: orange;">Simple Table with header</p>
-        <table>
-            <tr>
-                <th>Num 1</th>
-                <th>Num 2</th>
-                <th>Num 3</th>
-            </tr>
-            <tr>
-                <td>One</td>
-                <td>Two</td>
-                <td>Three</td>
-            </tr>
-            <tr>
-                <td>Four</td>
-                <td>Five</td>
-                <td>Six</td>
-            </tr>
-        </table>
-        <p style="color: orange;">Table with caption</p>
-        <table>
-            <caption>List Of Number</caption>
-            <tr>
-                <th>Num 1</th>
-                <th>Num 2</th>
-                <th>Num 3</th>
-            </tr>
-            <tr>
-                <td>One</td>
-                <td>Two</td>
-                <td>Three</td>
-            </tr>
-            <tr>
-                <td>Four</td>
-                <td>Five</td>
-                <td>Six</td>
-            </tr>
-        </table>
-        <p style="color: orange;">Table with head and body</p>
-        <table>
-            <thead>
-                <caption>
-                    <h4>List Of Number</h4>
-                </caption>
-                <tr>
-                    <th>Num 1</th>
-                    <th>Num 2</th>
-                    <th>Num 3</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>One</td>
-                    <td>Two</td>
-                    <td>Three</td>
-                </tr>
-                <tr>
-                    <td>Four</td>
-                    <td>Five</td>
-                    <td>Six</td>
-                </tr>
-            </tbody>
-        </table>
-        <hr />
-        <h2 id="input">Input</h2>
-        <p>A simple <b>Text</b> input</p>
-        <input type="text" value="Enter your name" />
-        <p>A <b>Password</b> input</p>
-        <input type="password" value="password" />
-        <p>A <b>Date</b> input</p>
-        <p>When is your birthday?</p>
-        <input type="date" />
-        <p>A <b>Time</b> input</p>
-        <p>What time is it?</p>
-        <input type="time" />
-        <p>A <b>Range</b> input</p>
-        <p>How do you feel today?</p>
-        <input type="range" />
-        <p>A <b>Color</b> input</p>
-        <p>Choose your color!!!!</p>
-        <input type="color" />
-        <p>A <b>File</b> input</p>
-        <input type="file" />
-        <br>
-        <p>What animals do you have in your house?</p>
-        <input id="cat" name="animal" type="checkbox" />
-        <label for="cat">Cat</label>
-        <br>
-        <input id="dog" name="animal" type="checkbox" />
-        <label for="dog">Dog</label>
-        <br>
-        <input id="bunny" name="animal" type="checkbox" />
-        <label for="bunny">Bunny</label>
-        <p>What is your favorite color?</p>
-        <input id="red" name="color" type="radio">
-        <label for="red">Red</label>
-        <br>
-        <input id="blue" name="color" type="radio">
-        <label for="blue">Blue</label>
-        <br>
-        <input id="other" name="color" type="radio">
-        <label for="other">Other</label>
-        <p>You <b>have to</b> select a soda from the list</p>
-        <label for="soda">What soda do you want?</label>
-        <br>
-        <select name="soda" id="soda">
-            <option>Pepsi</option>
-            <option>Coca Cola</option>
-            <option selected>Inka Cola</option>
-        </select>
-        <p>You <b>can</b> select a food from the list o write another</p>
-        <input list="food">
-        <datalist id="food">
-            <option >Paella</option>
-            <option >Risotto</option>
-            <option >Pollo a la brasa</option>
-        </datalist>
-        <p>Leave a comment in the box below.</p>
-        <textarea cols="30" rows="10">Enter your comment</textarea>
-        <p>Surprise! Is a button</p>
-        <input type="button" value="Hello">
-        <hr />
-        <h2 id="form">Form</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In temporibus possimus eaque voluptate sunt dicta,
-            deserunt molestias amet! Optio ducimus similique laboriosam voluptate cupiditate labore dolores nostrum.
-            Voluptatum, ducimus sapiente?</p>
-        <form action="">
-            <label for="name">Name:</label>
-            <input id="name" type="text" name="name" readonly>
-            <br>
-            <label for="lname">Last Name:</label>
-            <input id="lname" type="text" name="lname" disabled>
-            <br>
-            <label for="email">Email:</label>
-            <input id="email" type="email" name="email" required>
-            <br>
-            <input type="submit" value="Submit">
-            <input type="reset" value="Clear">
-        </form>
-        <hr />
-        <h2 id="anchor">Anchor</h2>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur consectetur laboriosam dolorem deserunt
-            debitis ut fugit doloribus quod architecto dolorum maxime atque sint, id inventore praesentium numquam.
-            Saepe, sapiente nihil!</p>
-        <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2MZB178APpF9j3uDncjOfuFmDv_gHwRyKVW_BkHcyiaie6mKj_4wH1c3rqpdo6Pc_uIs&usqp=CAU"
-            target="_blank">Random image open in a new page</a>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo ipsa asperiores quod necessitatibus corrupti
-            ratione quae maxime quidem accusamus, quaerat inventore accusantium ipsum id modi exercitationem ut
-            consectetur vel sint.
-        </p>
-        <a href="mailto:nemo.tace@gmail.com">nemo.tace@gmail.com</a>
+        <header>
+            <h1>Learning HTML</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#paragraph">Paragraph</a></li>
+                <li><a href="#image">Image</a></li>
+                <li><a href="#audio">Audio</a></li>
+                <li><a href="#video">Video</a></li>
+                <li><a href="#anchor">Anchor</a></li>
+                <li><a href="#list">List</a></li>
+                <li><a href="#table">Table</a></li>
+                <li><a href="#input">Input</a></li>
+                <li><a href="#form">Form</a></li>
+                <li><a href="#iframes">Iframes</a></li>
+                <li><a href="#entities">Entities</a></li>
+                <li><a href="more.html">More</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section>
+                <article>
+                    <h2 id="paragraph">Paragraph</h2>
+                    <hr />
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique repellat totam error inventore
+                        molestiae
+                        autem. Accusamus facilis eius ducimus? Qui totam necessitatibus non expedita harum earum
+                        explicabo
+                        laboriosam praesentium itaque.</p>
+                    <p>The last word has <em>emphasis</em></p>
+                    <p><strong>The</strong> first word has bold</p>
+                    <p>The middle <i>word</i> has italic</p>
+                    <p><big>T</big>he first letter is bigger</p>
+                    <p>The last letter is smalle<small>r</small></p>
+                    <p><u>This paragraph has underline</u></p>
+                    <p>H<sub>2</sub>O</p>
+                    <p>10<sup>2</sup></p>
+                    <p style="color: red;">Paragraph with style</p>
+                </article>
+                <article>
+                    <h2 id="image">Image</h2>
+                    <hr>
+                    <p>This is a beautiful black cat</p>
+                    <img src="https://images2.minutemediacdn.com/image/upload/c_fill,w_720,ar_16:9,f_auto,q_auto,g_auto/shape/cover/sport/87226-gettyimages-1247734973-fb624124040b7676d4da16f7b3666048.jpg"
+                        alt="A black Cat">
+                </article>
+                <article>
+                    <h2 id="audio">Audio</h2>
+                    <hr>
+                    <p>Wondering from where the music is playing?, UPS</p>
+                    <audio controls autoplay loop>
+                        <source src="resources/Dismantle.mp3" type="audio/mpeg">
+                    </audio>
+                </article>
+                <article>
+                    <h2 id="video">Video</h2>
+                    <hr>
+                    <p>I want to see that movie!!!</p>
+                    <p>But I don't want to cry...</p>
+                    <video controls height="400">
+                        <source src="resources/demon_slayer_mugen_train_trailer.mp4" type="video/mp4">
+                    </video>
+                </article>
+                <article>
+                    <h2 id="anchor">Anchor</h2>
+                    <hr>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur consectetur laboriosam dolorem deserunt
+                        debitis ut fugit doloribus quod architecto dolorum maxime atque sint, id inventore praesentium numquam.
+                        Saepe, sapiente nihil!</p>
+                    <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2MZB178APpF9j3uDncjOfuFmDv_gHwRyKVW_BkHcyiaie6mKj_4wH1c3rqpdo6Pc_uIs&usqp=CAU"
+                        target="_blank">Random image open in a new page</a>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo ipsa asperiores quod necessitatibus corrupti
+                        ratione quae maxime quidem accusamus, quaerat inventore accusantium ipsum id modi exercitationem ut
+                        consectetur vel sint.
+                    </p>
+                    <a href="mailto:nemo.tace@gmail.com">nemo.tace@gmail.com</a>
+                </article>
+                <article>
+                    <h2 id="list">List</h2>
+                    <hr>
+                    <p style="color: orange;">This is an unordered list</p>
+                    <ul>
+                        <li>Cat</li>
+                        <li>Birds</li>
+                        <li>Dogs</li>
+                    </ul>
+                    <p style="color: orange;">This is a sorted list</p>
+                    <ol>
+                        <li>Orange</li>
+                        <li>Strawberry</li>
+                        <li>Lemon</li>
+                    </ol>
+                    <p style="color: orange;">This is a description list</p>
+                    <dl>
+                        <dt>Apples</dt>
+                        <dd>They are red</dd>
+                        <dt>Bananas</dt>
+                        <dd>They are yellow</dd>
+                        <dt>Grapes</dt>
+                        <dd>They are green</dd>
+                    </dl>
+                </article>
+                <article>
+                    <h2 id="table">Table</h2>
+                    <hr />
+                    <p style="color: orange;">Simple Table</p>
+                    <table>
+                        <tr>
+                            <td>One</td>
+                            <td>Two</td>
+                            <td>Three</td>
+                        </tr>
+                        <tr>
+                            <td>Four</td>
+                            <td>Five</td>
+                            <td>Six</td>
+                        </tr>
+                    </table>
+                    <p style="color: orange;">Simple Table with header</p>
+                    <table>
+                        <tr>
+                            <th>Num 1</th>
+                            <th>Num 2</th>
+                            <th>Num 3</th>
+                        </tr>
+                        <tr>
+                            <td>One</td>
+                            <td>Two</td>
+                            <td>Three</td>
+                        </tr>
+                        <tr>
+                            <td>Four</td>
+                            <td>Five</td>
+                            <td>Six</td>
+                        </tr>
+                    </table>
+                    <p style="color: orange;">Table with caption</p>
+                    <table>
+                        <caption>List Of Number</caption>
+                        <tr>
+                            <th>Num 1</th>
+                            <th>Num 2</th>
+                            <th>Num 3</th>
+                        </tr>
+                        <tr>
+                            <td>One</td>
+                            <td>Two</td>
+                            <td>Three</td>
+                        </tr>
+                        <tr>
+                            <td>Four</td>
+                            <td>Five</td>
+                            <td>Six</td>
+                        </tr>
+                    </table>
+                    <p style="color: orange;">Table with head and body</p>
+                    <table>
+                        <thead>
+                            <caption>
+                                <h4>List Of Number</h4>
+                            </caption>
+                            <tr>
+                                <th>Num 1</th>
+                                <th>Num 2</th>
+                                <th>Num 3</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>One</td>
+                                <td>Two</td>
+                                <td>Three</td>
+                            </tr>
+                            <tr>
+                                <td>Four</td>
+                                <td>Five</td>
+                                <td>Six</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </article>
+                <article>
+                    <h2 id="input">Input</h2>
+                    <hr />
+                    <p>A simple <b>Text</b> input</p>
+                    <input type="text" value="Enter your name" />
+                    <p>A <b>Password</b> input</p>
+                    <input type="password" value="password" />
+                    <p>A <b>Date</b> input</p>
+                    <p>When is your birthday?</p>
+                    <input type="date" />
+                    <p>A <b>Time</b> input</p>
+                    <p>What time is it?</p>
+                    <input type="time" />
+                    <p>A <b>Range</b> input</p>
+                    <p>How do you feel today?</p>
+                    <input type="range" />
+                    <p>A <b>Color</b> input</p>
+                    <p>Choose your color!!!!</p>
+                    <input type="color" />
+                    <p>A <b>File</b> input</p>
+                    <input type="file" />
+                    <br>
+                    <p>What animals do you have in your house?</p>
+                    <input id="cat" name="animal" type="checkbox" />
+                    <label for="cat">Cat</label>
+                    <br>
+                    <input id="dog" name="animal" type="checkbox" />
+                    <label for="dog">Dog</label>
+                    <br>
+                    <input id="bunny" name="animal" type="checkbox" />
+                    <label for="bunny">Bunny</label>
+                    <p>What is your favorite color?</p>
+                    <input id="red" name="color" type="radio">
+                    <label for="red">Red</label>
+                    <br>
+                    <input id="blue" name="color" type="radio">
+                    <label for="blue">Blue</label>
+                    <br>
+                    <input id="other" name="color" type="radio">
+                    <label for="other">Other</label>
+                    <p>You <b>have to</b> select a soda from the list</p>
+                    <label for="soda">What soda do you want?</label>
+                    <br>
+                    <select name="soda" id="soda">
+                        <option>Pepsi</option>
+                        <option>Coca Cola</option>
+                        <option selected>Inka Cola</option>
+                    </select>
+                    <p>You <b>can</b> select a food from the list o write another</p>
+                    <input list="food">
+                    <datalist id="food">
+                        <option>Paella</option>
+                        <option>Risotto</option>
+                        <option>Pollo a la brasa</option>
+                    </datalist>
+                    <p>Leave a comment in the box below.</p>
+                    <textarea cols="30" rows="10">Enter your comment</textarea>
+                    <p>Surprise! Is a button</p>
+                    <input type="button" value="Hello">
+                </article>
+                <article>
+                    <h2 id="form">Form</h2>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In temporibus possimus eaque voluptate sunt dicta,
+                        deserunt molestias amet! Optio ducimus similique laboriosam voluptate cupiditate labore dolores nostrum.
+                        Voluptatum, ducimus sapiente?</p>
+                    <form action="">
+                        <label for="name">Name:</label>
+                        <input id="name" type="text" name="name" readonly>
+                        <br>
+                        <label for="lname">Last Name:</label>
+                        <input id="lname" type="text" name="lname" disabled>
+                        <br>
+                        <label for="email">Email:</label>
+                        <input id="email" type="email" name="email" required>
+                        <br>
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Clear">
+                    </form>
+                </article>
+                <article>
+                    <h2 id="iframes">Iframes</h2>
+                    <hr>
+                </article>
+                <article>
+                    <h2 id="entities">Entities</h2>
+                    <hr>
+                </article>
+            </section>
+        </main>
+        <footer style="display:flex; align-content: center; justify-content: center; background-color: burlywood;">
+            <p>Derechos Reservados &copy;</p>
+        </footer>
     </body>
 
 </html>
