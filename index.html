@@ -144,25 +144,80 @@
         </table>
         <hr />
         <h2 id="input">Input</h2>
+        <p>A simple <b>Text</b> input</p>
         <input type="text" value="Enter your name" />
-        <br>
+        <p>A <b>Password</b> input</p>
         <input type="password" value="password" />
-        <br>
+        <p>A <b>Date</b> input</p>
+        <p>When is your birthday?</p>
         <input type="date" />
-        <br>
+        <p>A <b>Time</b> input</p>
+        <p>What time is it?</p>
+        <input type="time" />
+        <p>A <b>Range</b> input</p>
+        <p>How do you feel today?</p>
         <input type="range" />
-        <br>
+        <p>A <b>Color</b> input</p>
+        <p>Choose your color!!!!</p>
+        <input type="color" />
+        <p>A <b>File</b> input</p>
         <input type="file" />
         <br>
-        <input type="checkbox" />
-        <input type="checkbox" />
-        <input type="checkbox" />
+        <p>What animals do you have in your house?</p>
+        <input id="cat" name="animal" type="checkbox" />
+        <label for="cat">Cat</label>
         <br>
-        <input name="radio" type="radio" />
-        <input name="radio" type="radio" />
-        <input name="radio" type="radio" />
+        <input id="dog" name="animal" type="checkbox" />
+        <label for="dog">Dog</label>
         <br>
+        <input id="bunny" name="animal" type="checkbox" />
+        <label for="bunny">Bunny</label>
+        <p>What is your favorite color?</p>
+        <input id="red" name="color" type="radio">
+        <label for="red">Red</label>
+        <br>
+        <input id="blue" name="color" type="radio">
+        <label for="blue">Blue</label>
+        <br>
+        <input id="other" name="color" type="radio">
+        <label for="other">Other</label>
+        <p>You <b>have to</b> select a soda from the list</p>
+        <label for="soda">What soda do you want?</label>
+        <br>
+        <select name="soda" id="soda">
+            <option>Pepsi</option>
+            <option>Coca Cola</option>
+            <option selected>Inka Cola</option>
+        </select>
+        <p>You <b>can</b> select a food from the list o write another</p>
+        <input list="food">
+        <datalist id="food">
+            <option >Paella</option>
+            <option >Risotto</option>
+            <option >Pollo a la brasa</option>
+        </datalist>
+        <p>Leave a comment in the box below.</p>
         <textarea cols="30" rows="10">Enter your comment</textarea>
+        <p>Surprise! Is a button</p>
+        <input type="button" value="Hello">
+        <hr />
+        <h2 id="form">Form</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In temporibus possimus eaque voluptate sunt dicta,
+            deserunt molestias amet! Optio ducimus similique laboriosam voluptate cupiditate labore dolores nostrum.
+            Voluptatum, ducimus sapiente?</p>
+        <form action="">
+            <label for="name">Name:</label>
+            <input id="name" type="text" name="name" readonly>
+            <br>
+            <label for="lname">Last Name:</label>
+            <input id="lname" type="text" name="lname" disabled>
+            <br>
+            <label for="email">Email:</label>
+            <input id="email" type="email" name="email" required>
+            <br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Clear">
+        </form>
         <hr />
         <h2 id="anchor">Anchor</h2>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur consectetur laboriosam dolorem deserunt
