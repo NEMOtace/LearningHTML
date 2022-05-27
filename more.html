@@ -19,18 +19,20 @@
                 <li style="display:inline;"><a href="#2">Quotes</a> | </li>
                 <li style="display:inline;"><a href="#3">Abbreviations</a> | </li>
                 <li style="display:inline;"><a href="#4">Cite</a> | </li>
-                <li style="display:inline;"><a href="#5">5</a> | </li>
-                <li style="display:inline;"><a href="#6">6</a> | </li>
-                <li style="display:inline;"><a href="#7">7</a> | </li>
-                <li style="display:inline;"><a href="#8">8</a> | </li>
-                <li style="display:inline;"><a href="#9">9</a> | </li>
-                <li style="display:inline;"><a href="#10">10</a> </li>
+                <li style="display:inline;"><a href="#5">Details</a> | </li>
+                <li style="display:inline;"><a href="#6">Address</a> | </li>
+                <li style="display:inline;"><a href="#7">Code</a> | </li>
+                <li style="display:inline;"><a href="#8">Picture</a> | </li>
+                <li style="display:inline;"><a href="#9">Figure</a></li>
             </ul>
+            <hr>
         </nav>
         <main>
             <section>
+                <h2>More about HTML tags</h2>
                 <article>
-                    <h2 id="1">Preformatted</h2>
+                    <hr>
+                    <h3 id="1">Preformatted</h3>
                     <p>This ia a paragraph; <br>
                         with &lt;br&gt; tag, <br>
                         to have line break. <br>
@@ -41,9 +43,10 @@
                         instead of &lt;p&gt; tag
                         to have line break.
                     </pre>
+                    <hr>
                 </article>
                 <article>
-                    <h2 id="2">Quotes</h2>
+                    <h3 id="2">Quotes</h3>
                     <p>For a short quote, it often appears inside a &lt;p&gt; tag like below</p>
                     <p>Some philosopher said: <q>Cogito Ergo Sum</q></p>
                     <p>But for a long quote</p>
@@ -51,56 +54,66 @@
                         Mi vida ha sido capricho, impulso, pasión, anhelo de la soledad, mofa de las cosas de este
                         mundo; un honesto deseo de futuro.
                     </blockquote>
+                    <hr>
                 </article>
                 <article>
-                    <h2 id="3">Abbreviations</h2>
+                    <h3 id="3">Abbreviations</h3>
                     <p>The &lt;abbr&gt; tag is used to define an abbreviation.</p>
                     <p>Do you know what means <abbr title="Domain Name System">DNS</abbr>? </p>
+                    <hr>
                 </article>
                 <article>
-                    <h2 id="4">Cite</h2>
+                    <h3 id="4">Cite</h3>
                     <p>Use the &lt;cite&gt; tag to define the title of a work</p>
                     <p><cite>Big Magic</cite> from Elizabeth Gilbert.</p>
+                    <hr>
                 </article>
                 <article>
-                    <h2 id="5"></h2>
-                    <p></p>
+                    <h3 id="5">Details</h3>
+                    <details>
+                        <summary>One day in my Life</summary>
+                        <p>I try to have my <mark>Whatsapp</mark> chatbot, i saw a tutorial video and follow all the steps but i cant, what a sad day.</p>
+                    </details>
+                    <hr>
                 </article>
                 <article>
-                    <h2 id="6">Address</h2>
+                    <h3 id="6">Address</h3>
                     <p>Use it to address a web page</p>
                     <address>
                         Nemo Tace <br>
                         Perú - Lima<br>
                         15804
                     </address>
+                    <hr>
                 </article>
                 <article>
-                    <h2 id="7">Code</h2>
+                    <h3 id="7">Code</h3>
                     <p>To write some code inside</p>
                     <code>
                         span {
                             color:red;
                         }
                     </code>
+                    <hr>
                 </article>
                 <article>
-                    <h2 id="8">Picture</h2>
+                    <h3 id="8">Picture</h3>
                     <p></p>
                     <picture>
                         <source srcset="assets/images/wolf.webp" media="(max-width:900px)">
                         <img src="assets/images/owl.webp" alt="An owl">
                     </picture>
+                    <hr>
                 </article>
                 <article>
-                    <h2 id="9"></h2>
-                    <p></p>
+                    <h3 id="9">Figure</h3>
+                    <p>To put relational content but its optional</p>
+                    <figure>
+                        <img src="assets/images/rengoku.webp" style="max-width: 100%;" alt="Rengoku from Demon Slayer Anime">
+                        <figcaption>Rengoku from Demon Slayer</figcaption>
+                    </figure>
                 </article>
-                <article>
-                    <h2 id="10"></h2>
-                    <p></p>
-                </article>
-                <footer style="display:flex; align-content:center;">
+                <footer style="display:flex; align-content:center; justify-content: center; background-color: antiquewhite;">
                     <p>Derechos Reservados &copy;</p>
                 </footer>
             </section>
