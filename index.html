@@ -27,12 +27,12 @@
                 <li><a href="#entities">Entities</a></li>
                 <li><a href="more.html">More</a></li>
             </ul>
+            <hr>
         </nav>
         <main>
             <section>
                 <article>
                     <h2 id="paragraph">Paragraph</h2>
-                    <hr />
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique repellat totam error inventore
                         molestiae
                         autem. Accusamus facilis eius ducimus? Qui totam necessitatibus non expedita harum earum
@@ -47,49 +47,53 @@
                     <p>H<sub>2</sub>O</p>
                     <p>10<sup>2</sup></p>
                     <p style="color: red;">Paragraph with style</p>
+                    <hr>
                 </article>
                 <article>
                     <h2 id="image">Image</h2>
-                    <hr>
                     <p>This is a beautiful black cat</p>
                     <img src="https://images2.minutemediacdn.com/image/upload/c_fill,w_720,ar_16:9,f_auto,q_auto,g_auto/shape/cover/sport/87226-gettyimages-1247734973-fb624124040b7676d4da16f7b3666048.jpg"
                         alt="A black Cat">
+                        <hr>
                 </article>
                 <article>
                     <h2 id="audio">Audio</h2>
-                    <hr>
                     <p>Wondering from where the music is playing?, UPS</p>
-                    <audio controls autoplay loop>
-                        <source src="resources/Dismantle.mp3" type="audio/mpeg">
+                    <audio controls>
+                        <source src="assets/audio/Dismantle.mp3" type="audio/mpeg">
                     </audio>
+                    <hr>
                 </article>
                 <article>
                     <h2 id="video">Video</h2>
-                    <hr>
                     <p>I want to see that movie!!!</p>
                     <p>But I don't want to cry...</p>
                     <video controls height="400">
-                        <source src="resources/demon_slayer_mugen_train_trailer.mp4" type="video/mp4">
+                        <source src="assets/video/demon_slayer_mugen_train_trailer.mp4" type="video/mp4">
                     </video>
+                    <hr>
                 </article>
                 <article>
                     <h2 id="anchor">Anchor</h2>
-                    <hr>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur consectetur laboriosam dolorem deserunt
-                        debitis ut fugit doloribus quod architecto dolorum maxime atque sint, id inventore praesentium numquam.
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur consectetur laboriosam
+                        dolorem deserunt
+                        debitis ut fugit doloribus quod architecto dolorum maxime atque sint, id inventore praesentium
+                        numquam.
                         Saepe, sapiente nihil!</p>
                     <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2MZB178APpF9j3uDncjOfuFmDv_gHwRyKVW_BkHcyiaie6mKj_4wH1c3rqpdo6Pc_uIs&usqp=CAU"
                         target="_blank">Random image open in a new page</a>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo ipsa asperiores quod necessitatibus corrupti
-                        ratione quae maxime quidem accusamus, quaerat inventore accusantium ipsum id modi exercitationem ut
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo ipsa asperiores quod necessitatibus
+                        corrupti
+                        ratione quae maxime quidem accusamus, quaerat inventore accusantium ipsum id modi exercitationem
+                        ut
                         consectetur vel sint.
                     </p>
                     <a href="mailto:nemo.tace@gmail.com">nemo.tace@gmail.com</a>
+                    <hr>
                 </article>
                 <article>
                     <h2 id="list">List</h2>
-                    <hr>
                     <p style="color: orange;">This is an unordered list</p>
                     <ul>
                         <li>Cat</li>
@@ -111,10 +115,10 @@
                         <dt>Grapes</dt>
                         <dd>They are green</dd>
                     </dl>
+                    <hr>
                 </article>
                 <article>
                     <h2 id="table">Table</h2>
-                    <hr />
                     <p style="color: orange;">Simple Table</p>
                     <table>
                         <tr>
@@ -190,10 +194,10 @@
                             </tr>
                         </tbody>
                     </table>
+                    <hr>
                 </article>
                 <article>
                     <h2 id="input">Input</h2>
-                    <hr />
                     <p>A simple <b>Text</b> input</p>
                     <input type="text" value="Enter your name" />
                     <p>A <b>Password</b> input</p>
@@ -213,15 +217,7 @@
                     <p>A <b>File</b> input</p>
                     <input type="file" />
                     <br>
-                    <p>What animals do you have in your house?</p>
-                    <input id="cat" name="animal" type="checkbox" />
-                    <label for="cat">Cat</label>
-                    <br>
-                    <input id="dog" name="animal" type="checkbox" />
-                    <label for="dog">Dog</label>
-                    <br>
-                    <input id="bunny" name="animal" type="checkbox" />
-                    <label for="bunny">Bunny</label>
+                    <h3>Radio buttons</h3>
                     <p>What is your favorite color?</p>
                     <input id="red" name="color" type="radio">
                     <label for="red">Red</label>
@@ -231,57 +227,111 @@
                     <br>
                     <input id="other" name="color" type="radio">
                     <label for="other">Other</label>
-                    <p>You <b>have to</b> select a soda from the list</p>
+                    <h3>Checkbox</h3>
+                    <p>What animals do you have in your house?</p>
+                    <input id="cat" name="animal" type="checkbox" />
+                    <label for="cat">Cat</label>
+                    <br>
+                    <input id="dog" name="animal" type="checkbox" />
+                    <label for="dog">Dog</label>
+                    <br>
+                    <input id="bunny" name="animal" type="checkbox" />
+                    <label for="bunny">Bunny</label>
+                    <h3>Select</h3>
+                    <br>
                     <label for="soda">What soda do you want?</label>
                     <br>
                     <select name="soda" id="soda">
-                        <option>Pepsi</option>
-                        <option>Coca Cola</option>
-                        <option selected>Inka Cola</option>
+                        <option value="pepsi">Pepsi</option>
+                        <option value="coca">Coca Cola</option>
+                        <option value="inka" selected>Inka Cola</option>
                     </select>
+                    <br>
+                    <br>
+                    <label for="restaurant">Choose what you want</label>
+                    <br>
+                    <select name="restaurant" id="restaurant" multiple>
+                        <optgroup label="Soda">
+                            <option value="pepsi">Pepsi</option>
+                            <option value="coca">Coca Cola</option>
+                            <option value="inka">Inka Cola</option>
+                        </optgroup>
+                        <optgroup label="Food">
+                            <option value="chickenb">Chicken Burger</option>
+                            <option value="porkb">Pork Burger</option>
+                            <option value="hotb">Hot Burger</option>
+                        </optgroup>
+                        <optgroup label="Dessert">
+                            <option value="cupcake">Cupcake</option>
+                            <option value="ice">Ice Cream</option>
+                            <option value="chocolate">Chocolate</option>
+                        </optgroup>
+                    </select>
+                    <h3>Select and Write</h3>
                     <p>You <b>can</b> select a food from the list o write another</p>
                     <input list="food">
                     <datalist id="food">
-                        <option>Paella</option>
-                        <option>Risotto</option>
-                        <option>Pollo a la brasa</option>
+                        <option value="Paella"></option>
+                        <option value="Risotto"></option>
+                        <option value="Pollo a la brasa"></option>
                     </datalist>
+                    <h3>Textarea</h3>
                     <p>Leave a comment in the box below.</p>
                     <textarea cols="30" rows="10">Enter your comment</textarea>
+                    <h3>Buttons</h3>
                     <p>Surprise! Is a button</p>
                     <input type="button" value="Hello">
+                    <hr>
                 </article>
                 <article>
                     <h2 id="form">Form</h2>
-                    <hr>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In temporibus possimus eaque voluptate sunt dicta,
-                        deserunt molestias amet! Optio ducimus similique laboriosam voluptate cupiditate labore dolores nostrum.
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In temporibus possimus eaque voluptate
+                        sunt dicta,
+                        deserunt molestias amet! Optio ducimus similique laboriosam voluptate cupiditate labore dolores
+                        nostrum.
                         Voluptatum, ducimus sapiente?</p>
-                    <form action="">
+                    <form action="enviar.html" method="GET">
                         <label for="name">Name:</label>
-                        <input id="name" type="text" name="name" readonly>
+                        <input id="name" type="text" name="name" minlength="3" maxlength="45">
                         <br>
                         <label for="lname">Last Name:</label>
-                        <input id="lname" type="text" name="lname" disabled>
+                        <input id="lname" type="text" name="lname">
                         <br>
                         <label for="email">Email:</label>
                         <input id="email" type="email" name="email" required>
                         <br>
+                        <label for="phone">Phone:</label>
+                        <input id="phone" type="tel" name="phone" value="953256851" readonly>
+                        <br>
                         <input type="submit" value="Submit">
                         <input type="reset" value="Clear">
                     </form>
+                    <h3>Form With Field</h3>
+                    <form action="">
+                        <fieldset>
+                            <legend>Personal Data</legend>
+                            <label for="name">Name:</label>
+                            <input id="name" type="text" name="name" value="Sofia" readonly>
+                            <br>
+                            <label for="lname">Last Name:</label>
+                            <input id="lname" type="text" name="lname" placeholder="Enter your last name">
+                        </fieldset>
+                        <input type="submit" value="Submit" disabled>
+                        <input type="reset" value="Clear">
+                    </form>
+                    <hr>
                 </article>
                 <article>
                     <h2 id="iframes">Iframes</h2>
-                    <hr>
                     <p>Don't know what to write here...; Any suggestions?</p>
-
+                    <hr>
                 </article>
                 <article>
                     <h2 id="entities">Entities</h2>
-                    <hr>
-                    <p>Just write something instead of the that something itself, doesn't matter is you don't catch that cause me neither</p>
+                    <p>Just write something instead of the that something itself, doesn't matter is you don't catch that
+                        cause me neither</p>
                     <p>Image example</p>
+                    <hr>
                 </article>
             </section>
         </main>
